@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+#
 import sys
 import socket
 import scapy_http.http
@@ -44,7 +45,7 @@ def port_scan(ip, ports, verbose):
 
 def main():
     args()
-    list_ports = [20, 21, 22, 23, 25, 50, 53, 67, 68, 69, 80, 110, 143, 443, 445, 3389, 8000, 8080, 8081, 9000, 9001]
+    #list_ports = [20, 21, 22, 23, 25, 50, 53, 67, 68, 69, 80, 110, 143, 443, 445, 3389, 8000, 8080, 8081, 9000, 9001]
     ip = sys.argv[1]
     ports = sys.argv[2]
     verbose = sys.argv[3]
