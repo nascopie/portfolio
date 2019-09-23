@@ -1,12 +1,9 @@
 #!/usr/bin/perl
 #
-#Benjamin Brouillet P0981410
-#Salim Belabdi P1192832
-#IFT_3830
-#TP3
+#Nascopie
 #
 #Script en perl permettant de lire un fichier tcpdump et d'en extraire des informations
-#
+#Nécessite le nom du fichier texte en ligne de commande (ex: dump.txt)
 
 #vérifie qu'il n'y a qu'un seul paramêtre
 if (@ARGV != 1){
