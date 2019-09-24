@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-#
+#Nascopie
+# Simple port mapper using socket and scapy_http
+
 import sys
 import socket
 import scapy_http.http
